@@ -1,1 +1,52 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9de">
+  <meta name="author" content="Akshat Ramachandran">
+  <meta name="description" content="Akshat Ramachandran is a computer architecture researcher building efficient systems for emergent AI.">
+  <meta property="og:title" content="Akshat Ramachandran — Architecting Intelligence">
+  <meta property="og:description" content="Research across algorithms, arithmetic, and architecture for efficient AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://akshatramachandran.me/">
+  <meta property="og:image" content="https://akshatramachandran.me/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Akshat Ramachandran — Architecting Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css?v=20260923-25">
+  <link rel="icon" type="image/png" href="images/gt_logo.png">
+  <script>
+    const revealBoot = () => document.body?.classList.add('loaded');
+    document.addEventListener('DOMContentLoaded', revealBoot, { once: true });
+    setTimeout(revealBoot, 4000);
+  </script>
+  <script type="module" src="script.js?v=20260923-27"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="boot" aria-hidden="true">
+    <span>AR·CORE</span>
+    <div class="boot-line"><i></i></div>
+    <span>INITIALIZING</span>
+  </div>
+
+  <!-- Stable visual shell. Page content is rendered from content/site-content.js. -->
+  <canvas id="chip-canvas" aria-hidden="true"></canvas>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="site-header"></header>
+
+  <aside class="progress-rail" aria-label="Page progress">
+    <span class="progress-label">INPUT</span>
+    <div class="progress-track"><i></i></div>
+    <span class="progress-number">00</span>
+  </aside>
+
+  <main id="main"></main>
+</body>
+</html>
